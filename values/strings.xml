@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string name="app_name">Universal Scorecard</string>
+  <string name="new_scorecard_button">New scorecard</string>
+  <string name="continue_button">Continue</string>
+  <string name="no_continue_toast">There is no scorecard to continue.</string>
+  <string name="byline">produced by Lattice Labs</string>
+  
+  <!-- New Scorecard activity -->
+  <string name="new_scorecard_name">New scorecard</string>
+  <string name="starting_score_label">Starting score:</string>
+  <string name="players_label">Players:</string>
+  <string name="add_player_button">Add new player</string>
+  <string name="start_scorecard_button">Start scorecard</string>
+  <string name="add_player_dialog_title">Enter player\'s name</string>
+  <string name="dialog_positive_button">OK</string>
+  <string name="dialog_negative_button">Cancel</string>
+  <string name="edit_name_item">Edit name</string>
+  <string name="remove_player_item">Remove player</string>
+  <string name="blank_name_toast">Names must contain at least one character.</string>
+  <string name="no_players_toast">There must be at least one player.</string>
+
+  <!-- Scorecard activity -->
+  <string name="add_button">Add</string>
+  <string name="dialog_pass_button">Pass</string>
+  <string name="add_score_dialog_title">Add new score</string>
+  <string name="edit_score_dialog_title">Edit</string>
+</resources>

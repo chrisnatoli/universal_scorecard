@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+   xmlns:android="http://schemas.android.com/apk/res/android"
+   android:orientation="horizontal"
+   android:layout_width="fill_parent"
+   android:layout_height="fill_parent"
+   android:paddingLeft="35dip"
+   android:paddingTop="20dip"
+   android:paddingRight="35dip"
+   android:paddingBottom="20dip"
+   >
+
+  <LinearLayout
+     android:orientation="vertical"
+     android:layout_height="wrap_content"
+     android:layout_width="fill_parent"
+     android:layout_gravity="center"
+     >
+    <TextView
+       android:text="@string/app_name"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:typeface="serif"
+       android:textSize="25sp"
+       />
+    <TextView
+       android:text="@string/byline"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="right"
+       android:typeface="serif"
+       android:textStyle="italic"
+       android:textSize="10sp"
+       />
+    <ImageView
+       android:src="@drawable/logo"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:padding="15dip"
+       />
+    <Button
+       android:id="@+id/new_scorecard_button"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/new_scorecard_button"
+       />
+    <Button
+       android:id="@+id/continue_button"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_gravity="center"
+       android:text="@string/continue_button"
+       />
+  </LinearLayout>
+
+</LinearLayout>
+
